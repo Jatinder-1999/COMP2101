@@ -19,13 +19,11 @@
 ###############
 title="Overlord"
 myname="dennis"
-hostname="myhostname"
+hostname=$(hostname)
 
 ###############
 # Main        #
 ###############
 cat <<EOF
-
 Welcome to planet $hostname, "$title $myname!"
-
 EOF
